@@ -324,6 +324,42 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-52" value="Data.SPS" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="440" width="187" height="220" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-70" value="V.Core" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-52">
+          <mxGeometry y="20" width="187" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-71" value="V.Data.Framework" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-52">
+          <mxGeometry y="46" width="187" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-56" value="Handles database operations" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-52">
+          <mxGeometry y="72" width="187" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-57" value="DbConfiguration" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-52">
+          <mxGeometry y="100" width="187" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-58" value="SPSContext" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-52">
+          <mxGeometry y="130" width="187" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-59" value="LinqToSqlExtensions" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-52">
+          <mxGeometry y="160" width="187" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-60" value="SqlRewriter" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-52">
+          <mxGeometry y="190" width="187" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.898;entryY=-0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MpHF3CXx0KVB0-BQkt5Q-11" target="G8dZxTRwJFfFwZ6E2qrU-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="381" />
+              <mxPoint x="400" y="270" />
+              <mxPoint x="190" y="270" />
+              <mxPoint x="190" y="459" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
