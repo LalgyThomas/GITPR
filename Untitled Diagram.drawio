@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1299" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1539" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -115,7 +115,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MpHF3CXx0KVB0-BQkt5Q-14" value="Core -&amp;nbsp;&lt;strong&gt;Clean Architecture&lt;/strong&gt;, the &lt;strong&gt;Core&lt;/strong&gt; refers to the central part of the application that contains &lt;strong&gt;business logic, domain entities,&lt;/strong&gt;&lt;div&gt;&lt;strong&gt;&amp;nbsp;and use cases&lt;/strong&gt;. It is the most &lt;strong&gt;independent&lt;/strong&gt; and &lt;strong&gt;stable&lt;/strong&gt; layer, meaning it does not depend on external frameworks, databases, UI, or infrastructure.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-210" y="820" width="810" height="40" as="geometry" />
+          <mxGeometry x="-250" y="840" width="810" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MpHF3CXx0KVB0-BQkt5Q-19" value="Auth-DB" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="610" y="200" width="178" height="290" as="geometry">
@@ -394,6 +394,38 @@
         </mxCell>
         <mxCell id="G8dZxTRwJFfFwZ6E2qrU-86" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Controllers (&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Auth,Backgroundcheck,&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Cronstatus,Logs,JbFeed,RMQ,RestoreDB,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;SMS,Schedulingetc)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;JobBoard, Hris, VIP&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-73">
           <mxGeometry y="242" width="175" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-88" value="Consumers" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-210" y="472" width="178" height="268" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-89" value="V.Core" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-88">
+          <mxGeometry y="26" width="178" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-90" value="V.Data.Auth" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-88">
+          <mxGeometry y="52" width="178" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-91" value="V.Data.Client" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-88">
+          <mxGeometry y="78" width="178" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-93" value="H.DomainLogic" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-88">
+          <mxGeometry y="104" width="178" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-94" value="V.BusinessLogic.SPS" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-88">
+          <mxGeometry y="130" width="178" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-95" value="V.Data.SPS" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-88">
+          <mxGeometry y="156" width="178" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-96" value="V.Data.Framework" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-88">
+          <mxGeometry y="182" width="178" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-97" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-88">
+          <mxGeometry y="208" width="178" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-98" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;RabbitMq workers, Cron,&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;generic workers and db operations&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-88">
+          <mxGeometry y="216" width="178" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
