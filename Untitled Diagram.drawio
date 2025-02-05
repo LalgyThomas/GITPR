@@ -287,6 +287,43 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-41" value="BusinessLogic" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="120" width="187" height="300" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-48" value="V.Data.Client - Proj Ref" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-41">
+          <mxGeometry y="20" width="187" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-49" value="H.DomainLogic - Proj Ref" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-41">
+          <mxGeometry y="46" width="187" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-50" value="SharedModels - Proj Ref" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-41">
+          <mxGeometry y="72" width="187" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-43" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;Business Logic&lt;/strong&gt; refers to the &lt;strong style=&quot;&quot;&gt;rules and processes&lt;/strong&gt; that govern application behavior, while &lt;strong style=&quot;&quot;&gt;Domain Logic&lt;/strong&gt; is a subset of Business Logic that is &lt;strong style=&quot;&quot;&gt;purely focused on the core domain rules&lt;/strong&gt; without infrastructure concerns.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-41">
+          <mxGeometry y="98" width="187" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-44" value="DailyEmail, AccountUtil, " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-41">
+          <mxGeometry y="180" width="187" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-45" value="ApplicantUtil" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-41">
+          <mxGeometry y="210" width="187" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-46" value="OnboardingUtil" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-41">
+          <mxGeometry y="240" width="187" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-47" value="JobUtil" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="G8dZxTRwJFfFwZ6E2qrU-41">
+          <mxGeometry y="270" width="187" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G8dZxTRwJFfFwZ6E2qrU-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MpHF3CXx0KVB0-BQkt5Q-10" target="G8dZxTRwJFfFwZ6E2qrU-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="355" />
+              <mxPoint x="400" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
